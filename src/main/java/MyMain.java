@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MyMain {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("What's your name?");
+        System.out.println("What is your name?");
         String name = scan.nextLine();
         System.out.println("hello " + name + ", my name is Kyra!");
         System.out.println("What's your favorite color?");
